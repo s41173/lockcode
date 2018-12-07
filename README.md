@@ -1,4 +1,4 @@
-# Wamenak Driver [![bitHound Score][bithound-img]][bithound-url]
+# LockCode [![bitHound Score][bithound-img]][bithound-url]
 
 LockCode Application
 
