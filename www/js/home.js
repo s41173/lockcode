@@ -1,7 +1,12 @@
 
 function code(){
   
-  var nilai = '{ "description":"testing", "startDate": "2018-12-07T12:00:00+07:00", "durationCode": 1 }';
+  let d  = new Date();
+  var tgl = '0';
+  if (d.getDate() < 10){ tgl = '0'+d.getDate(); }else{ tgl = d.getDate; }
+
+  var month = parseInt(d.getMonth()+1);
+  var nilai = '{ "description":"testing", "startDate":"'+d.getFullYear()+'-'+month+'-'+tgl+'T12:00:00+07:00", "durationCode": 1 }';
   $.ajax({
     url: 'https://partnerapi.igloohome.co/v1/locks/IGB2-C2A4P2_69ac6f/lockcodes',
     headers: {
@@ -24,7 +29,7 @@ function code(){
     },
     error: function (request, status, error) {
       toast('Request Failed...! - '+request.responseText);
-      setTimeout(function(){ navigator.app.exitApp(); }, 1500);
+      // setTimeout(function(){ navigator.app.exitApp(); }, 1500);
     }
   });
 
