@@ -1,12 +1,12 @@
 # Wamenak Driver [![bitHound Score][bithound-img]][bithound-url]
 
-Wamenak Order Application
+LockCode Application
 
 ## Usage
 
 #### PhoneGap CLI
 
-Wamenak Driver Order Application - using the [phonegap-cli][phonegap-cli-url].
+LockCode Application - using the [phonegap-cli][phonegap-cli-url].
 
     phonegap create my-app
 
