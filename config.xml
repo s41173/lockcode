@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.wamenakdriver" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Wamenak Driver</name>
+<widget id="com.phonegap.lockcode" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>LockCode</name>
     <description>
-	Wamenak Driver
+	LockCode
     </description>
-    <author email="info@wamenak.com" href="http://wamenak.com">
-       Wamenak
+    <author email="info@kamispace.com" href="http://kamispace.com">
+       KAMI
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
