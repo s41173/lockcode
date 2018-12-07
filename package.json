@@ -1,0 +1,1 @@
+{"name":"com.phonegap.lockcode","version":"1.0.0","displayName":"Lock-Code","cordova":{"platforms":["android"]},"dependencies":{"cordova-android":"~6.1.2"}}
